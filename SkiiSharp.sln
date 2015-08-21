@@ -1,6 +1,9 @@
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiiSharp", "SkiiSharp\SkiiSharp.csproj", "{9BD71AE9-DCE1-472D-840D-D63C248929D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,6 +15,10 @@ Global
 		{9BD71AE9-DCE1-472D-840D-D63C248929D5}.Debug|x86.Build.0 = Debug|x86
 		{9BD71AE9-DCE1-472D-840D-D63C248929D5}.Release|x86.ActiveCfg = Release|x86
 		{9BD71AE9-DCE1-472D-840D-D63C248929D5}.Release|x86.Build.0 = Release|x86
+		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Debug|x86.Build.0 = Debug|Any CPU
+		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Release|x86.ActiveCfg = Release|Any CPU
+		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SkiiSharp\SkiiSharp.csproj

@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skii-sharp", "skii-sharp\skii-sharp.csproj", "{9BD71AE9-DCE1-472D-840D-D63C248929D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiiSharp", "SkiiSharp\SkiiSharp.csproj", "{9BD71AE9-DCE1-472D-840D-D63C248929D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +14,6 @@ Global
 		{9BD71AE9-DCE1-472D-840D-D63C248929D5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = skii-sharp\skii-sharp.csproj
+		StartupItem = SkiiSharp\SkiiSharp.csproj
 	EndGlobalSection
 EndGlobal

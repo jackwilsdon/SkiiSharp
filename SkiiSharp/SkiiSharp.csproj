@@ -8,7 +8,7 @@
     <ProjectGuid>{9BD71AE9-DCE1-472D-840D-D63C248929D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>skiisharp</RootNamespace>
-    <AssemblyName>skii-sharp</AssemblyName>
+    <AssemblyName>SkiiSharp</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>

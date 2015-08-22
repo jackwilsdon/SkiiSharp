@@ -4,13 +4,13 @@ using System.Collections.Generic;
 namespace Log {
     public class LogMessage {
         public LogColor Color;
-        public String Value;
+        public string Value;
 
         public LogMessage() : this("") {}
 
-        public LogMessage(String value) : this(LogColor.Default, value) {}
+        public LogMessage(string value) : this(LogColor.Default, value) {}
 
-        public LogMessage(LogColor color, String value) {
+        public LogMessage(LogColor color, string value) {
             Color = color;
             Value = value;
         }

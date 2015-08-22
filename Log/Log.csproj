@@ -32,8 +32,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILogDestination.cs" />
     <Compile Include="LogColor.cs" />
     <Compile Include="LogLevel.cs" />
+    <Compile Include="LogMessage.cs" />
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

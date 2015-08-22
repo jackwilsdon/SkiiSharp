@@ -32,6 +32,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Destinations\ConsoleDestination.cs" />
     <Compile Include="ILogDestination.cs" />
     <Compile Include="LogColor.cs" />
     <Compile Include="Logger.cs" />

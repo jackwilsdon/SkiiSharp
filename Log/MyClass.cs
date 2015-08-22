@@ -1,6 +1,6 @@
 using System;
 
-namespace Logger
+namespace Log
 {
     public class MyClass
     {
@@ -9,4 +9,3 @@ namespace Logger
         }
     }
 }
-

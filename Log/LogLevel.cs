@@ -8,7 +8,7 @@ namespace Log {
     }
 
     public static class LogLevelExtensions {
-        public static LogColor GetMessageColor(this LogLevel level) {
+        public static LogColor GetColor(this LogLevel level) {
             switch (level) {
             case LogLevel.Debug:
                 return LogColor.Gray;

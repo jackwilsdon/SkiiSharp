@@ -24,5 +24,9 @@ namespace Log {
 
             return LogColor.Default;
         }
+
+        public static LogMessage GetMessage(this LogLevel level) {
+            return new LogMessage(level.GetColor(), level.ToString());
+        }
     }
 }

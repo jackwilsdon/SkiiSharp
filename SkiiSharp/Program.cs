@@ -6,10 +6,9 @@ using Log.Destinations;
 namespace SkiiSharp {
     class MainClass {
         public static void Main(string[] args) {
-            Logger logger = new Logger();
+            Logger logger = LogManager.GetLogger("Hello", true, true);
 
-            logger.AddDestination(new ConsoleDestination());
-            logger.Log("Hello!");
+            logger.Log("Hello, world!");
         }
     }
 }

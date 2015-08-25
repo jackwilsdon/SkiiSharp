@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9BD71AE9-DCE1-472D-840D-D63C248929D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>skiisharp</RootNamespace>
+    <RootNamespace>SkiiSharp</RootNamespace>
     <AssemblyName>SkiiSharp</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

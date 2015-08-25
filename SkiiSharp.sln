@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiiSharp", "SkiiSharp\Skii
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS", "ECS\ECS.csproj", "{9E169946-A62F-4F78-9467-9DD736199435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,8 +21,9 @@ Global
 		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Debug|x86.Build.0 = Debug|Any CPU
 		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Release|x86.ActiveCfg = Release|Any CPU
 		{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}.Release|x86.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SkiiSharp\SkiiSharp.csproj
+		{9E169946-A62F-4F78-9467-9DD736199435}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E169946-A62F-4F78-9467-9DD736199435}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E169946-A62F-4F78-9467-9DD736199435}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E169946-A62F-4F78-9467-9DD736199435}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

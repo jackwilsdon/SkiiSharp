@@ -38,6 +38,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ECS\ECS.csproj">
+      <Project>{9E169946-A62F-4F78-9467-9DD736199435}</Project>
+      <Name>ECS</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Log\Log.csproj">
       <Project>{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}</Project>
       <Name>Log</Name>

@@ -32,20 +32,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\..\packages\MonoGame.Framework.MacOS.3.4.0.459\lib\net40\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>..\..\..\packages\MonoGame.Framework.MacOS.3.4.0.459\lib\net40\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>..\..\..\packages\MonoGame.Framework.MacOS.3.4.0.459\lib\net40\OpenTK.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\Program.cs" />
+    <Compile Include="..\..\Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ECS\ECS.csproj">
+    <ProjectReference Include="..\..\..\ECS\ECS.csproj">
       <Project>{9E169946-A62F-4F78-9467-9DD736199435}</Project>
       <Name>ECS</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Log\Log.csproj">
+    <ProjectReference Include="..\..\..\Log\Log.csproj">
       <Project>{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}</Project>
       <Name>Log</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

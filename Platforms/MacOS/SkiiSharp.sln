@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiiSharp", "SkiiSharp\SkiiSharp.csproj", "{9BD71AE9-DCE1-472D-840D-D63C248929D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiiSharp", "..\..\SkiiSharp\Platforms\MacOS\SkiiSharp.csproj", "{9BD71AE9-DCE1-472D-840D-D63C248929D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "..\..\Log\Log.csproj", "{93AAA19B-4F4C-45AE-A253-EFE09C3DB88A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS", "ECS\ECS.csproj", "{9E169946-A62F-4F78-9467-9DD736199435}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS", "..\..\ECS\ECS.csproj", "{9E169946-A62F-4F78-9467-9DD736199435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

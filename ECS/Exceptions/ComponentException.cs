@@ -3,13 +3,13 @@ using System;
 namespace ECS {
     namespace Exceptions {
         public abstract class ComponentException : Exception {
-            public Component Component { get; private set; }
+            public IComponent Component { get; private set; }
 
-            public ComponentException(Component component, string format) : base(GetMessage(component, format)) {
+            protected ComponentException(IComponent component, string format) : base(GetMessage(component, format)) {
                 Component = component;
             }
 
-            private static string GetMessage(Component component, string messageFormat) {
+            private static string GetMessage(IComponent component, string messageFormat) {
                 string componentName = component == null ? "null" : component.GetType().Name;
                 return ReplaceFirst(messageFormat, "{type}", componentName);
             }

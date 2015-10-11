@@ -5,7 +5,7 @@ namespace ECS {
         public class ComponentAlreadyPresentException : ComponentException {
             private const string MESSAGE_FORMAT = "component of type {type} already present";
 
-            public ComponentAlreadyPresentException(Component component) : base(component, MESSAGE_FORMAT) {}
+            public ComponentAlreadyPresentException(IComponent component) : base(component, MESSAGE_FORMAT) {}
         }
     }
 }
